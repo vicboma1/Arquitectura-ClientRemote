@@ -1,0 +1,7 @@
+spring:
+  application:
+     name: app-client     # Apuntamos al nombre del fichero de nuestra config-cloud
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
